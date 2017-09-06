@@ -16,7 +16,6 @@ public class WeatherModule extends JPanel {
 
     WeatherModuleHelper weatherModuleHelper;
 
-    //2835013
     public WeatherModule() throws IOException, ParseException, java.text.ParseException {
 
         super();

@@ -304,6 +304,7 @@ public class WeatherModuleHelper {
 
     //Converts Fahrenheit to Celsius
     public double convertKtoC(double kelvin) {
+
         return kelvin - 273.15;
     }
 
