@@ -11,12 +11,14 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Iterator;
 
-public class TravelHelper {
+public class TravelModuleHelper {
 
     private static int traveltimeTransit, traveltimeCar, traveltimeBike;
-    private static final String C_FILEPATH = "src//main//resources//travel//";
+    public static final String C_FILEPATH = "src//main//resources//travel//";
     private static final String C_URLCAR = "https://maps.googleapis.com/maps/api/directions/json?origin=15,muehlenbloecken,brunstorf&destination=werner-otto-strasse,hamburg";
     private static final String C_URLTRANSIT = "https://maps.googleapis.com/maps/api/directions/json?origin=15,muehlenbloecken,brunstorf&destination=werner-otto-strasse,hamburg&mode=transit";
     private static final String C_URLBIKE = "https://maps.googleapis.com/maps/api/directions/json?origin=15,muehlenbloecken,brunstorf&destination=werner-otto-strasse,hamburg&mode=bicycling";
@@ -25,36 +27,37 @@ public class TravelHelper {
         CAR, BICYCLE, TRANSIT;
     }
 
-    //Returns a 3D Vector containing all traveltimes
-    public static Vector3 getTraveltimes() throws IOException, ParseException {
-        updateFiles();
-
-        for(Vehicle vec : Vehicle.values()) {
-            switch(vec) {
-                case CAR:
-                    traveltimeCar = getTraveltime(vec);
-                    break;
-                case BICYCLE:
-                    traveltimeBike = getTraveltime(vec);
-                    break;
-                case TRANSIT:
-                    traveltimeTransit = getTraveltime(vec);
-            }
+    //Returns the icon name of a vehicle enum for the GUI
+    public static String getTransitIconName(Vehicle vec) {
+        switch(vec) {
+            case CAR:
+                return "caricon.png";
+            case BICYCLE:
+                return "bikeicon.png";
+            case TRANSIT:
+                return "transiticon.png";
         }
-
-        return new Vector3(traveltimeCar, traveltimeBike, traveltimeTransit);
+        return "";
     }
 
     //Returns a travel time for a given vehicle
-    private static int getTraveltime(Vehicle mode) throws IOException, ParseException {
+    public static TravelPanel getTraveltime(Vehicle vec) throws IOException, ParseException, java.text.ParseException {
+
+        //Variable for getting the next transit
+        SimpleDateFormat format = new SimpleDateFormat("H:m");
+        Date date;
+
+        //Panel to return
+        TravelPanel panel = new TravelPanel(vec);
 
         //JSON stuff
         JSONParser parser = new JSONParser();
-        Object obj = parser.parse(new FileReader(C_FILEPATH+getFilename(mode)+".json"));
-        System.out.println("Parsing: "+C_FILEPATH+getFilename(mode)+".json");
+        Object obj = parser.parse(new FileReader(C_FILEPATH+getFilename(vec)+".json"));
+        System.out.println("Parsing: "+C_FILEPATH+getFilename(vec)+".json");
         JSONObject jsonObject = (JSONObject) obj;
         JSONObject currentObject;
         JSONObject currentLegsObject;
+        JSONObject currentDepartureTime;
         Long durationLong;
         JSONArray arr = (JSONArray) jsonObject.get("routes");
         Iterator<JSONObject> iterator = arr.iterator();
@@ -67,12 +70,17 @@ public class TravelHelper {
                 currentLegsObject = iteratorLegs.next();
                 JSONObject durationObject = (JSONObject) currentLegsObject.get("duration");
                 durationLong = (Long) durationObject.get("value");
-                System.out.println(mode+": "+durationLong);
-                return  durationLong.intValue()/60;
+                panel.setTravelTime(durationLong/60);
+
+                if(vec == Vehicle.TRANSIT) {
+                    currentDepartureTime = (JSONObject) currentLegsObject.get("departure_time");
+                    panel.setNextTransit(format.parse((String) currentDepartureTime.get("text")));
+
+                }
             }
         }
 
-        return 0;
+        return panel;
     }
 
     //Returns the filename for the given vehicle

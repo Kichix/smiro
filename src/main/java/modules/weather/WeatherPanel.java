@@ -17,23 +17,9 @@ public class WeatherPanel extends JPanel{
 
     public WeatherPanel(Weatherdata wd, String label) {
         super();
-        updateData(wd);
         super.setBackground(Color.black);
         //super.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-        super.setLayout(new GridBagLayout());
-
-        //Header constraints
-        GridBagConstraints constraintsHeader = new GridBagConstraints();
-        constraintsHeader.fill = GridBagConstraints.VERTICAL;
-        constraintsHeader.anchor = GridBagConstraints.FIRST_LINE_START;
-        constraintsHeader.gridwidth = GridBagConstraints.REMAINDER;
-
-        //Center constraints
-        GridBagConstraints constraintsCenter = new GridBagConstraints();
-        constraintsCenter.fill = GridBagConstraints.VERTICAL;
-        constraintsCenter.anchor = GridBagConstraints.CENTER;
-        constraintsCenter.gridwidth = GridBagConstraints.REMAINDER;
-        constraintsCenter.ipady = 10;
+        super.setLayout(new GridLayout(5,1));
 
         //Data
         header = new JLabel(label, SwingConstants.CENTER);
@@ -43,8 +29,8 @@ public class WeatherPanel extends JPanel{
         temperatureLabel.setForeground(Color.white);
 
         //Add the labels
-        super.add(header, constraintsHeader);
-        super.add(temperatureLabel, constraintsCenter);
+        super.add(header);
+        super.add(temperatureLabel);
 
         //Add the image
         try {
@@ -54,12 +40,8 @@ public class WeatherPanel extends JPanel{
             ex.printStackTrace();
         }
 
-        JLabel imageLabel = new JLabel(new ImageIcon(image.getScaledInstance(75,75,0)));
+        JLabel imageLabel = new JLabel(new ImageIcon(image.getScaledInstance(60,60,0)));
         super.add(imageLabel);
-    }
-
-    public void updateData(Weatherdata wd) {
-
     }
 
 }

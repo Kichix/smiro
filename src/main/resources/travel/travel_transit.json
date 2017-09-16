@@ -16,11 +16,11 @@
       {
          "bounds" : {
             "northeast" : {
-               "lat" : 53.5983955,
-               "lng" : 10.4261606
+               "lat" : 53.600022,
+               "lng" : 10.486613
             },
             "southwest" : {
-               "lat" : 53.486065,
+               "lat" : 53.4867328,
                "lng" : 10.0229017
             }
          },
@@ -28,22 +28,22 @@
          "legs" : [
             {
                "arrival_time" : {
-                  "text" : "12:33am",
+                  "text" : "8:00pm",
                   "time_zone" : "Europe/Berlin",
-                  "value" : 1505428382
+                  "value" : 1505584821
                },
                "departure_time" : {
-                  "text" : "10:55pm",
+                  "text" : "5:48pm",
                   "time_zone" : "Europe/Berlin",
-                  "value" : 1505422549
+                  "value" : 1505576929
                },
                "distance" : {
-                  "text" : "40.1 km",
-                  "value" : 40105
+                  "text" : "49.8 km",
+                  "value" : 49835
                },
                "duration" : {
-                  "text" : "1 hour 37 mins",
-                  "value" : 5833
+                  "text" : "2 hours 12 mins",
+                  "value" : 7892
                },
                "end_address" : "Werner-Otto-Straße, Hamburg, Germany",
                "end_location" : {
@@ -59,19 +59,19 @@
                   {
                      "distance" : {
                         "text" : "0.5 km",
-                        "value" : 539
+                        "value" : 468
                      },
                      "duration" : {
-                        "text" : "7 mins",
-                        "value" : 395
+                        "text" : "6 mins",
+                        "value" : 343
                      },
                      "end_location" : {
-                        "lat" : 53.49386000000001,
-                        "lng" : 10.423596
+                        "lat" : 53.494018,
+                        "lng" : 10.424641
                      },
                      "html_instructions" : "Walk to Brunstorf, Schulweg",
                      "polyline" : {
-                        "points" : "oqoeIc_s~@?WAwAA_@?_ACu@fBWpAOz@KdBUTCxBW^tDRbCNzALnABZ@A"
+                        "points" : "oqoeIc_s~@?WAwAA_@?_ACu@fBWpAOz@KdBUTCxBW^tDRzBBA"
                      },
                      "start_location" : {
                         "lat" : 53.49671739999999,
@@ -127,21 +127,21 @@
                         },
                         {
                            "distance" : {
-                              "text" : "0.2 km",
-                              "value" : 176
+                              "text" : "0.1 km",
+                              "value" : 105
                            },
                            "duration" : {
-                              "text" : "2 mins",
-                              "value" : 128
+                              "text" : "1 min",
+                              "value" : 76
                            },
                            "end_location" : {
-                              "lat" : 53.49386000000001,
-                              "lng" : 10.423596
+                              "lat" : 53.494018,
+                              "lng" : 10.424641
                            },
-                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBundesstraße\u003c/b\u003e/\u003cb\u003eB207\u003c/b\u003e",
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBundesstraße\u003c/b\u003e/\u003cb\u003eB207\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
                            "maneuver" : "turn-right",
                            "polyline" : {
-                              "points" : "kboeIojs~@^tDRbCNzALnABZ@A"
+                              "points" : "kboeIojs~@^tDRzBBA"
                            },
                            "start_location" : {
                               "lat" : 53.4942951,
@@ -154,51 +154,51 @@
                   },
                   {
                      "distance" : {
-                        "text" : "15.5 km",
-                        "value" : 15520
+                        "text" : "4.5 km",
+                        "value" : 4491
                      },
                      "duration" : {
-                        "text" : "27 mins",
-                        "value" : 1620
+                        "text" : "8 mins",
+                        "value" : 480
                      },
                      "end_location" : {
-                        "lat" : 53.488744,
-                        "lng" : 10.20675
+                        "lat" : 53.503439,
+                        "lng" : 10.484884
                      },
-                     "html_instructions" : "Bus towards Bf. Bergedorf",
+                     "html_instructions" : "Bus towards Mölln, ZOB",
                      "polyline" : {
-                        "points" : "s_oeIozr~@IBLhBLnBD|@L~CB`@BNHn@~@dG\\`CXlBdKvq@tJbq@^|EbBxa@fBna@E`LIxZQ|KGlD_@dOMfGIxC[`NAn@AV@?AL?HSjHCvAIlDY~LUdMEfECfACdBEbAElAAD?BAdAG~C?BKtEe@bUKrDGzCKvEU|LQhHErBAj@AX@?AB?^Al@GhCE|E@jA?pB@jGDdHB`KBnF@n@F`N@pHF|Q@fAB~IB|D@dFH~GFdEFdBDfADl@r@pRjAh[\\zHDjA?J@D@^Bj@x@fTT|FJhCz@jUzAf`@VnIn@|PJlCr@`RFvEAlBAjBA?@?A?EfAAFKrA]rDUpBEVDDFHBLALALAJEDGDE@GAyApLeAjIALOdAqBcApBbAwBhQ}CbWGj@ADIl@Q`BmB|Oo@dGOdAOrAKp@Gb@EZAFI`AEb@IjAShCMpBEnAA`E?XA~A?dA?hH@xF?lC?|C?bC?dL@lI?dA@h@?z@?z@@b@?lACpA?xF?|FCJ?L?`@?R?VAPAPC?CDCD?H?J@J@FBHBDDDDANRDFH@p@fA|@tAHLHRj@pAHNHRPj@Pr@Pp@Lj@Hd@Jp@DRD^Jd@F`@Db@BVBVBhABxADnB@LZ|M?@DfADlBFhCTpIf@fR?VXtKLnEBp@@V?DHnDRfI\\nNFtB?D?\\@TPjILtEPpGN~H@TJjDB\\?VDf@Fz@@FDz@Jx@D\\B\\TpBZfCN`ATnAZlAZpA\\bAL`@T`APh@VbALx@Fz@CNCTG`@Gh@YjBw@hDAFUx@e@nBi@zBe@lBOh@Sf@k@jBCNg@dDSvAS`BIf@E^?n@Cb@CzC?r@?T?P?zA?bBAh@E`@CJCJPP`AzCHXFTOREHILGDEDI@G?GAGIGQG[e@}AGQUs@AIAKAK?K?W?E@KD?F?DADGBK?OAOm@wAk@{A_@cAjAeB"
+                        "points" : "s`oeI_as~@IBQwBE_@W}Cy@eJmAiMk@yGCMi@gGQaBI_Au@aJoAyN{@yJo@qHu@oIkCoZk@oG?KwAwPOeBOsBm@_HKmA]}D_@{De@cFMkAIgAs@gIWqC@?A?Cc@AECOCi@KeAy@yJaA_LoDma@G_AUaEGaAEs@QeBQkAESQWSm@S]MQIMs@y@s@u@UWK[CCOOL[@CDKJSLWJo@Dc@BW?SBg@BWDyAH}@Fg@Hk@HWLo@P{@XeBBWHq@Fu@ZmDLgADe@Ba@XsDGUIG}@qAMq@o@_ESoAeAgJe@bA]hBCPc@lCCH@@"
                      },
                      "start_location" : {
-                        "lat" : 53.49386000000001,
-                        "lng" : 10.423596
+                        "lat" : 53.494018,
+                        "lng" : 10.424641
                      },
                      "transit_details" : {
                         "arrival_stop" : {
                            "location" : {
-                              "lat" : 53.488744,
-                              "lng" : 10.20675
+                              "lat" : 53.503439,
+                              "lng" : 10.484884
                            },
-                           "name" : "Bf. Bergedorf"
+                           "name" : "Bf. Schwarzenbek"
                         },
                         "arrival_time" : {
-                           "text" : "11:29pm",
+                           "text" : "6:03pm",
                            "time_zone" : "Europe/Berlin",
-                           "value" : 1505424540
+                           "value" : 1505577780
                         },
                         "departure_stop" : {
                            "location" : {
-                              "lat" : 53.49386000000001,
-                              "lng" : 10.423596
+                              "lat" : 53.494018,
+                              "lng" : 10.424641
                            },
                            "name" : "Brunstorf, Schulweg"
                         },
                         "departure_time" : {
-                           "text" : "11:02pm",
+                           "text" : "5:55pm",
                            "time_zone" : "Europe/Berlin",
-                           "value" : 1505422920
+                           "value" : 1505577300
                         },
-                        "headsign" : "Bf. Bergedorf",
+                        "headsign" : "Mölln, ZOB",
                         "line" : {
                            "agencies" : [
                               {
@@ -214,30 +214,148 @@
                               "type" : "BUS"
                            }
                         },
-                        "num_stops" : 18
+                        "num_stops" : 4
                      },
                      "travel_mode" : "TRANSIT"
                   },
                   {
                      "distance" : {
-                        "text" : "0.4 km",
-                        "value" : 350
+                        "text" : "22 m",
+                        "value" : 22
                      },
                      "duration" : {
-                        "text" : "4 mins",
-                        "value" : 262
+                        "text" : "1 min",
+                        "value" : 16
                      },
                      "end_location" : {
-                        "lat" : 53.489832,
-                        "lng" : 10.206171
+                        "lat" : 53.50373700000001,
+                        "lng" : 10.484729
                      },
-                     "html_instructions" : "Walk to Hamburg-Bergedorf",
+                     "html_instructions" : "Walk to Schwarzenbek",
                      "polyline" : {
-                        "points" : "s_neIeoh}@WkA`@Bj@cDDSDYQEYAKXKXGNCFERAHEDCDST]\\a@JJ`@DLKTEDC@oArBo@`A\\c@"
+                        "points" : "o{peIoy~~@D@CLKn@q@a@"
                      },
                      "start_location" : {
-                        "lat" : 53.488744,
-                        "lng" : 10.20675
+                        "lat" : 53.503439,
+                        "lng" : 10.484884
+                     },
+                     "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "22 m",
+                              "value" : 22
+                           },
+                           "duration" : {
+                              "text" : "1 min",
+                              "value" : 16
+                           },
+                           "end_location" : {
+                              "lat" : 53.50373700000001,
+                              "lng" : 10.484729
+                           },
+                           "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e on \u003cb\u003eAm Bahnhof\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "o{peIoy~~@D@CLKn@q@a@"
+                           },
+                           "start_location" : {
+                              "lat" : 53.503439,
+                              "lng" : 10.484884
+                           },
+                           "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "12.1 km",
+                        "value" : 12084
+                     },
+                     "duration" : {
+                        "text" : "10 mins",
+                        "value" : 600
+                     },
+                     "end_location" : {
+                        "lat" : 53.529856,
+                        "lng" : 10.314679
+                     },
+                     "html_instructions" : "Train towards Aumühle",
+                     "polyline" : {
+                        "points" : "k}peIqx~~@AA[|Bq@bFUdBKlAQlBOnBYtDGhAIrAEv@AZC\\GtAKxCM`EKvDOlGOpFCbBAP?NQ|FGtCItCIxCI|BIvBK|BMzBObCOlBOjBM~AO|ASbBQ`BYvB[|BQhAQjAk@`DUpAc@vBa@lBc@jBe@jB_@xAYbAY`Aa@nAa@rAiAjDyBrGoCbIiBlF{AjEcAzC}@hCq@nBeAxC{C~IgA`DeBbFk@~As@vBu@zBw@xBkEjM_JhWyEfN_C`HsBpGy@lCy@rCk@vBYlAa@dBYvAa@jB_@pBYdBg@~Ce@`Di@nEYlCOdBU`COxBQhCMzBKxBIrBGjBEbBCzAC~AC`CAzBAfC@tB@vA?VBdC?T?PJhFPvGN|F`@dPJtEXtKPrHNhIV~KVjJVlHDpBLfFXxLZxKZxN@HJdFBl@h@zQ@TLvELnFBn@VjKV`JRdLB`DArFCfEGbDCpAS|EMxCOfCSvCa@rEK`AYdC_@tCWrBStAg@jCa@zBi@xBe@`Cc@`B]pAk@hBu@dCw@vBmA`DkAbDmAfDgAdDWz@O`@KZKXc@`B[nAEPw@pDa@lB]bB_@lBg@vC[zBa@lDADa@jD_@|Da@fEGh@KfA?Bg@tEk@hFUzBMpASrB_@nE]xDMtAEj@U~CAROfCO`CMlCOhCU|ESdFAXC`@IpBGxBIxDGhFGdGCpGAvDEfG?zA@zA@dA?dA@h@?j@F`FHvGDzBE?"
+                     },
+                     "start_location" : {
+                        "lat" : 53.50373700000001,
+                        "lng" : 10.484729
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 53.529856,
+                              "lng" : 10.314679
+                           },
+                           "name" : "Aumühle"
+                        },
+                        "arrival_time" : {
+                           "text" : "6:34pm",
+                           "time_zone" : "Europe/Berlin",
+                           "value" : 1505579640
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 53.50373700000001,
+                              "lng" : 10.484729
+                           },
+                           "name" : "Schwarzenbek"
+                        },
+                        "departure_time" : {
+                           "text" : "6:24pm",
+                           "time_zone" : "Europe/Berlin",
+                           "value" : 1505579040
+                        },
+                        "headsign" : "Aumühle",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Hamburger Verkehrsverbund (HVV)",
+                                 "phone" : "011 49 40 19449",
+                                 "url" : "http://www.hvv.de/"
+                              },
+                              {
+                                 "name" : "Deutsche Bahn AG",
+                                 "url" : "http://www.bahn.de/p_en/view/index.shtml"
+                              }
+                           ],
+                           "short_name" : "RB11",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                              "name" : "Train",
+                              "type" : "HEAVY_RAIL"
+                           }
+                        },
+                        "num_stops" : 2
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 53.529853,
+                        "lng" : 10.314672
+                     },
+                     "html_instructions" : "Walk to Aumühle",
+                     "polyline" : {
+                        "points" : "s`veIwq}}@@@"
+                     },
+                     "start_location" : {
+                        "lat" : 53.529856,
+                        "lng" : 10.314679
                      },
                      "steps" : [
                         {
@@ -250,160 +368,128 @@
                               "value" : 0
                            },
                            "end_location" : {
-                              "lat" : 53.4888568,
-                              "lng" : 10.2071314
+                              "lat" : 53.529853,
+                              "lng" : 10.314672
                            },
-                           "html_instructions" : "Head",
                            "polyline" : {
-                              "points" : "s_neIeoh}@WkA"
+                              "points" : "s`veIwq}}@@@"
                            },
                            "start_location" : {
-                              "lat" : 53.488744,
-                              "lng" : 10.20675
+                              "lat" : 53.529856,
+                              "lng" : 10.314679
                            },
                            "travel_mode" : "WALKING"
-                        },
-                        {
-                           "building_level" : {
-                              "number" : 0
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "8.7 km",
+                        "value" : 8732
+                     },
+                     "duration" : {
+                        "text" : "9 mins",
+                        "value" : 540
+                     },
+                     "end_location" : {
+                        "lat" : 53.489832,
+                        "lng" : 10.206171
+                     },
+                     "html_instructions" : "Commuter train towards Hamburg Elbgaustraße",
+                     "polyline" : {
+                        "points" : "q`veIuq}}@BABr@FjCHvCFvBHvBJzC?L@TNrCNtCNnCHzAHlAJtA`@hF\\tDTdCRrBXhC`@tDj@vEn@vEr@zEXnBH^F`@hArHl@vDjBtLp@tEz@rFt@zEpAjI\\vB\\tBX|AVpATfAVjA^zAJf@DNh@tBn@|Bx@lC^dAd@vAZv@j@zA\\z@t@dBt@~AN\\Xj@\\t@`@v@n@jAp@jAd@v@JN\\h@d@t@X^TZTZr@dAl@v@rAzAr@z@tAtApBhBtCdCfBdB`A`A`AfAxAhBz@jAbAvA|AxBpAxB@@\\n@`@v@h@dAhBxDp@fBz@`CHTPh@DHLX`@fAf@vAJ`@Vz@`@xANl@?BnB~HR`ALn@n@xC`@jCL~@VfBNhAD`@NdAXbCXhCTfBTjBTjBX~BZ|BDVZ`C^fCFZTvAH^DXPbALj@Lr@DZ\\dBH`@Jd@F\\DPFTHX?@Ll@n@`CBHNd@HVDLFTHT@DDNBFH^Tn@\\`Al@`Bj@vATh@Vn@`@`An@tA\\p@\\p@R`@Vd@\\l@DJ`@p@j@|@P\\NVFHt@dA?@`@h@TZ|@jAFHx@bAz@dAlAtA`@b@j@v@PTRZl@p@hAtABBNRLT@BT\\PXj@|@Zj@FJx@zAr@rAt@`B^|@^z@HTb@fAt@vBh@zAj@fBb@xAb@dBT~@Ld@Lh@R`A@BTdAVvA`@nBLr@Lz@f@fDFd@TrBRdBBPJfA\\lEJ~ALlBPxCNtCFv@?BFnAB`@FlALpBLnBLlBDn@JlANdB@HJdAHl@BXJ|@L|@Jj@d@bDn@pD^jBFVr@dDXnAFV\\zA^tADJFXFRDRFNzAlFj@dBn@lBv@vBz@vBn@dBbAnCd@lAbBfETj@JXN\\N`@h@vAr@bBHPt@hBMR"
+                     },
+                     "start_location" : {
+                        "lat" : 53.529853,
+                        "lng" : 10.314672
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 53.489832,
+                              "lng" : 10.206171
                            },
+                           "name" : "Hamburg-Bergedorf"
+                        },
+                        "arrival_time" : {
+                           "text" : "6:55pm",
+                           "time_zone" : "Europe/Berlin",
+                           "value" : 1505580900
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 53.529853,
+                              "lng" : 10.314672
+                           },
+                           "name" : "Aumühle"
+                        },
+                        "departure_time" : {
+                           "text" : "6:46pm",
+                           "time_zone" : "Europe/Berlin",
+                           "value" : 1505580360
+                        },
+                        "headsign" : "Hamburg Elbgaustraße",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Deutsche Bahn AG",
+                                 "url" : "http://www.bahn.de/p_en/view/index.shtml"
+                              }
+                           ],
+                           "short_name" : "S21",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                              "local_icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/de-sbahn.png",
+                              "name" : "Commuter train",
+                              "type" : "COMMUTER_TRAIN"
+                           }
+                        },
+                        "num_stops" : 3
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1 m",
+                        "value" : 0
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 0
+                     },
+                     "end_location" : {
+                        "lat" : 53.489832,
+                        "lng" : 10.206171
+                     },
+                     "html_instructions" : "Walk to Hamburg-Bergedorf",
+                     "polyline" : {
+                        "points" : "mfneIqkh}@"
+                     },
+                     "start_location" : {
+                        "lat" : 53.489832,
+                        "lng" : 10.206171
+                     },
+                     "steps" : [
+                        {
                            "distance" : {
-                              "text" : "86 m",
-                              "value" : 86
+                              "text" : "1 m",
+                              "value" : 0
                            },
                            "duration" : {
                               "text" : "1 min",
-                              "value" : 69
-                           },
-                           "end_location" : {
-                              "lat" : 53.4884368,
-                              "lng" : 10.2080262
-                           },
-                           "html_instructions" : "Walk for 86&nbsp;m",
-                           "polyline" : {
-                              "points" : "k`neIqqh}@`@Bj@cDDS"
-                           },
-                           "start_location" : {
-                              "lat" : 53.4888568,
-                              "lng" : 10.2071314
-                           },
-                           "travel_mode" : "WALKING"
-                        },
-                        {
-                           "distance" : {
-                              "text" : "9 m",
-                              "value" : 9
-                           },
-                           "duration" : {
-                              "text" : "1 min",
-                              "value" : 7
-                           },
-                           "end_location" : {
-                              "lat" : 53.4884107,
-                              "lng" : 10.2081582
-                           },
-                           "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e",
-                           "polyline" : {
-                              "points" : "w}meIewh}@DY"
-                           },
-                           "start_location" : {
-                              "lat" : 53.4884368,
-                              "lng" : 10.2080262
-                           },
-                           "travel_mode" : "WALKING"
-                        },
-                        {
-                           "distance" : {
-                              "text" : "25 m",
-                              "value" : 25
-                           },
-                           "duration" : {
-                              "text" : "1 min",
-                              "value" : 18
-                           },
-                           "end_location" : {
-                              "lat" : 53.4886338,
-                              "lng" : 10.2082027
-                           },
-                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eSerrahnstraße\u003c/b\u003e",
-                           "maneuver" : "turn-left",
-                           "polyline" : {
-                              "points" : "q}meI_xh}@QEYA"
-                           },
-                           "start_location" : {
-                              "lat" : 53.4884107,
-                              "lng" : 10.2081582
-                           },
-                           "travel_mode" : "WALKING"
-                        },
-                        {
-                           "distance" : {
-                              "text" : "0.1 km",
-                              "value" : 102
-                           },
-                           "duration" : {
-                              "text" : "1 min",
-                              "value" : 70
-                           },
-                           "end_location" : {
-                              "lat" : 53.489325,
-                              "lng" : 10.2072899
-                           },
-                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eSerrahnstraße\u003c/b\u003e",
-                           "maneuver" : "turn-left",
-                           "polyline" : {
-                              "points" : "}~meIgxh}@KXKXGNCFERAHEDCDST]\\a@J"
-                           },
-                           "start_location" : {
-                              "lat" : 53.4886338,
-                              "lng" : 10.2082027
-                           },
-                           "travel_mode" : "WALKING"
-                        },
-                        {
-                           "distance" : {
-                              "text" : "19 m",
-                              "value" : 19
-                           },
-                           "duration" : {
-                              "text" : "1 min",
-                              "value" : 13
-                           },
-                           "end_location" : {
-                              "lat" : 53.489234,
-                              "lng" : 10.2070475
-                           },
-                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eWeidenbaumsweg\u003c/b\u003e",
-                           "maneuver" : "turn-left",
-                           "polyline" : {
-                              "points" : "gcneIqrh}@J`@DL"
-                           },
-                           "start_location" : {
-                              "lat" : 53.489325,
-                              "lng" : 10.2072899
-                           },
-                           "travel_mode" : "WALKING"
-                        },
-                        {
-                           "distance" : {
-                              "text" : "0.1 km",
-                              "value" : 109
-                           },
-                           "duration" : {
-                              "text" : "1 min",
-                              "value" : 85
+                              "value" : 0
                            },
                            "end_location" : {
                               "lat" : 53.489832,
                               "lng" : 10.206171
                            },
-                           "html_instructions" : "Take the pedestrian tunnel\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
                            "polyline" : {
-                              "points" : "ubneIaqh}@KTEDC@oArBo@`A\\c@"
+                              "points" : "mfneIqkh}@"
                            },
                            "start_location" : {
-                              "lat" : 53.489234,
-                              "lng" : 10.2070475
+                              "lat" : 53.489832,
+                              "lng" : 10.206171
                            },
                            "travel_mode" : "WALKING"
                         }
@@ -440,9 +526,9 @@
                            "name" : "Hamburg Berliner Tor"
                         },
                         "arrival_time" : {
-                           "text" : "11:54pm",
+                           "text" : "7:24pm",
                            "time_zone" : "Europe/Berlin",
-                           "value" : 1505426040
+                           "value" : 1505582640
                         },
                         "departure_stop" : {
                            "location" : {
@@ -452,9 +538,9 @@
                            "name" : "Hamburg-Bergedorf"
                         },
                         "departure_time" : {
-                           "text" : "11:37pm",
+                           "text" : "7:07pm",
                            "time_zone" : "Europe/Berlin",
-                           "value" : 1505425020
+                           "value" : 1505581620
                         },
                         "headsign" : "Hamburg Elbgaustraße",
                         "line" : {
@@ -601,9 +687,9 @@
                            "name" : "Wandsbek-Gartenstadt"
                         },
                         "arrival_time" : {
-                           "text" : "12:22am",
+                           "text" : "7:52pm",
                            "time_zone" : "Europe/Berlin",
-                           "value" : 1505427720
+                           "value" : 1505584320
                         },
                         "departure_stop" : {
                            "location" : {
@@ -613,9 +699,9 @@
                            "name" : "Berliner Tor"
                         },
                         "departure_time" : {
-                           "text" : "12:07am",
+                           "text" : "7:37pm",
                            "time_zone" : "Europe/Berlin",
-                           "value" : 1505426820
+                           "value" : 1505583420
                         },
                         "headsign" : "Wandsbek-Gartenstadt",
                         "line" : {
@@ -641,20 +727,20 @@
                   },
                   {
                      "distance" : {
-                        "text" : "0.9 km",
-                        "value" : 879
+                        "text" : "0.1 km",
+                        "value" : 146
                      },
                      "duration" : {
-                        "text" : "11 mins",
-                        "value" : 662
+                        "text" : "2 mins",
+                        "value" : 118
                      },
                      "end_location" : {
-                        "lat" : 53.5983955,
-                        "lng" : 10.0709454
+                        "lat" : 53.592313,
+                        "lng" : 10.07581
                      },
-                     "html_instructions" : "Walk to Werner-Otto-Straße, Hamburg, Germany",
+                     "html_instructions" : "Walk to U Wandsbek-Gartenstadt",
                      "polyline" : {
-                        "points" : "ygbfIewn|@VtDc@eDIs@PWBAf@YCMMm@OTWVYVMHuA`A{CnBgAz@u@d@KFA?mDdC]PWNYTYToCpB_C~Ao@f@eAt@oAz@"
+                        "points" : "ygbfIewn|@VtDc@eDIs@PWBAf@YCMMm@JOEO"
                      },
                      "start_location" : {
                         "lat" : 53.592447,
@@ -686,48 +772,139 @@
                         },
                         {
                            "distance" : {
-                              "text" : "0.4 km",
-                              "value" : 423
+                              "text" : "9 m",
+                              "value" : 9
                            },
                            "duration" : {
-                              "text" : "5 mins",
-                              "value" : 298
+                              "text" : "1 min",
+                              "value" : 7
                            },
                            "end_location" : {
-                              "lat" : 53.5957938,
-                              "lng" : 10.0729867
+                              "lat" : 53.592313,
+                              "lng" : 10.07581
                            },
-                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eLesserstraße\u003c/b\u003e",
-                           "maneuver" : "turn-left",
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLesserstraße\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                           "maneuver" : "turn-right",
                            "polyline" : {
-                              "points" : "cgbfIy{n|@OTWVYVMHuA`A{CnBgAz@u@d@KFA?mDdC]PWN"
+                              "points" : "cgbfIy{n|@JOEO"
                            },
                            "start_location" : {
                               "lat" : 53.592339,
                               "lng" : 10.0756482
                            },
                            "travel_mode" : "WALKING"
+                        }
+                     ],
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.0 km",
+                        "value" : 956
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 120
+                     },
+                     "end_location" : {
+                        "lat" : 53.600022,
+                        "lng" : 10.069858
+                     },
+                     "html_instructions" : "Bus towards S Poppenbüttel (Stormarnplatz)",
+                     "polyline" : {
+                        "points" : "}fbfIy|n|@BJSRIJ_Av@uAhAsA~@eAr@IHiAt@i@`@KFy@j@yB|AUL[RWPIDKJuBzA_@ZcAl@[RYV?CGBYV_DxBYRuA~@yAbA?D[Ja@X_An@CM"
+                     },
+                     "start_location" : {
+                        "lat" : 53.592313,
+                        "lng" : 10.07581
+                     },
+                     "transit_details" : {
+                        "arrival_stop" : {
+                           "location" : {
+                              "lat" : 53.600022,
+                              "lng" : 10.069858
+                           },
+                           "name" : "Werner-Otto-Straße (Mitte)"
                         },
+                        "arrival_time" : {
+                           "text" : "7:59pm",
+                           "time_zone" : "Europe/Berlin",
+                           "value" : 1505584740
+                        },
+                        "departure_stop" : {
+                           "location" : {
+                              "lat" : 53.592313,
+                              "lng" : 10.07581
+                           },
+                           "name" : "U Wandsbek-Gartenstadt"
+                        },
+                        "departure_time" : {
+                           "text" : "7:57pm",
+                           "time_zone" : "Europe/Berlin",
+                           "value" : 1505584620
+                        },
+                        "headsign" : "S Poppenbüttel (Stormarnplatz)",
+                        "line" : {
+                           "agencies" : [
+                              {
+                                 "name" : "Hamburger Verkehrsverbund (HVV)",
+                                 "phone" : "011 49 40 19449",
+                                 "url" : "http://www.hvv.de/"
+                              }
+                           ],
+                           "short_name" : "8",
+                           "vehicle" : {
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                              "name" : "Bus",
+                              "type" : "BUS"
+                           }
+                        },
+                        "num_stops" : 2
+                     },
+                     "travel_mode" : "TRANSIT"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 119
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 80
+                     },
+                     "end_location" : {
+                        "lat" : 53.5983955,
+                        "lng" : 10.0709454
+                     },
+                     "html_instructions" : "Walk to Werner-Otto-Straße, Hamburg, Germany",
+                     "polyline" : {
+                        "points" : "cwcfIswm|@`CeAXQxAcAlA}@"
+                     },
+                     "start_location" : {
+                        "lat" : 53.600022,
+                        "lng" : 10.069858
+                     },
+                     "steps" : [
                         {
                            "distance" : {
-                              "text" : "0.3 km",
-                              "value" : 319
+                              "text" : "0.1 km",
+                              "value" : 119
                            },
                            "duration" : {
-                              "text" : "4 mins",
-                              "value" : 253
+                              "text" : "1 min",
+                              "value" : 80
                            },
                            "end_location" : {
                               "lat" : 53.5983955,
                               "lng" : 10.0709454
                            },
-                           "html_instructions" : "Continue onto \u003cb\u003eWerner-Otto-Straße\u003c/b\u003e",
+                           "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eWerner-Otto-Straße\u003c/b\u003e toward \u003cb\u003eHaldesdorfer Str.\u003c/b\u003e",
                            "polyline" : {
-                              "points" : "u|bfIekn|@YTYToCpB_C~Ao@f@eAt@oAz@"
+                              "points" : "cwcfIswm|@`CeAXQxAcAlA}@"
                            },
                            "start_location" : {
-                              "lat" : 53.5957938,
-                              "lng" : 10.0729867
+                              "lat" : 53.600022,
+                              "lng" : 10.069858
                            },
                            "travel_mode" : "WALKING"
                         }
@@ -740,7 +917,7 @@
             }
          ],
          "overview_polyline" : {
-            "points" : "oqoeIc_s~@CoECu@fBWlC[zBYxBW^tDb@~EPjBG@ZxEZnG`CdPzVzcB^|EbBxa@fBna@E`LIxZQ|Kg@rTW`L]hPYzKc@lR[lSS~HiA`i@cAtg@KzEChH@|JNf]Rxl@Rb`@Z`LjD`~@fI~xBr@`RFvECxEGfAaA`KEVDDJVCZGPMFGAyApLgAxIOdAqBcApBbAwBhQeDnXkCrT{ApMYhCq@jJIjK@vVB|f@EvVCnAKTFh@HJTPNHnB|ChAbC~@dDh@vC^jCNrElAnf@~Adn@zAho@n@rWPxCXzCdAxIp@|Cx@tClApETtBGd@OjAqAtGgBlHuBjHsAnJOfACrACvF?~DGjAGVPP`AzCPn@U\\QROFOAO[kA_EEm@?]FKLAHSA_@yAsD_@cAjAeBWkA`@Bp@wDDYQEYAKXSh@Qj@WZ]\\a@JPn@QZsAtBo@`A\\c@DIVj@|BhGlAbEhBlHnBdKrApKd@fGf@zKDhLKzHY|GgAzRgBx[KdBRDWhEq@fMeExu@eFbbAs@tNSzEa@pGa@rFkA`NaB|M_C~O_ChNeC`LiDzLaChHeI`UaCbGwAnD_@m@oC|G_LrXoO|^mKrWqExKcBbFkCtGyEhL{Pxa@wNt]wRpf@ug@zoAgHlQiGbO}DpKaGbOeEdKqCzHwAlDOS[x@iBbFkA|CoEzK}@tCs@zCuB|K{AjI}EpWsH~_@oDfQkB|J_AvEoAlEkBpEiDtFs@t@}ArAqDlCuHpFqQfMyMnJ}CjBcAl@cA|@uAlBqA`DqAjFe@vEChFDfAy@RkAtAGBIw@@WOQS@@NBZv@`H]PQgAUcBi@iC_@y@s@q@q@WgAaAc@OeDqAiAu@cAcAuCgEgAqAiAcAu@e@gAe@yBa@{BAuAJoEbAeHjB{B~@_Ah@wC`BmFtC_FdCaATm@Bs@CaAWcAq@_AmAeD{GgBuE_DcKcJ{YkAmDm@qAuAkBcC}Au@a@aAk@k@k@q@kAaAaCoA{Bg@c@}@]aC}@wEaBaEoA{Am@u@i@iH}IwKiNoCoCcEmDgAc@uAQ}@Pq@l@Y~@m@lD}@lHWpCaAtFc@zDUzDWdBa@tAo@~AeAlB_A~@i@\\u@RaBJuAMcAe@_Aq@y@cAaAiBy@wBm@_Cc@kCYqCyA{[oAiZKsGIuHr@q[h@}QlE}b@h@{FRgFB}DIgE[sEe@{Dy@sFDEVtDc@eDIs@PWj@[Q{@g@l@yGrEkChB}F|DyInGuCpB"
+            "points" : "oqoeIc_s~@CoECu@fBWlC[zBYxBW^tDVxBIBQwB]}DgCoXkBqSiNw_B}J{jAiIm`Au@}KW_Be@eA_BwByAmBOOL[FOXk@PsAJkB`@kFbAiFp@mHp@cIQ]}@qAMq@cAoGeAgJe@bAa@zBg@vCG`As@c@mA`JcApKq@jKsAbd@}@f]s@tN}@vK{AzLeBhKoC|LuBnH}Tvp@wQbi@}Xvx@gJtYaCbKcCbNyBdReA`Oc@|LMxLPdWbDduAvCjiArBhw@j@fW@tKc@zSsAlS}ApMgCvMiAbFiAzDgGbQ}DjLwAfF}BtKgAdG}@hHeBvP_DvZqAjOw@|L_Bb_@]z\\EvRB`FPtRx@bVpA|UhBxSvCnVtJdo@`Fr[dBlJhA~ErDfMjCfHtCnG`DdGtBfDxB|CjGdHpLvKzGtInEdHjA|BzC`H|AjEbBzEhAfE`EjQ`DrVxD~Y`BlJrAnGrBpHbDhJfF|KpEnH`I|J~FlH`EbHhDnHlCpHhCfJp@tC|A`IrA|J`AlKz@|NdAjQhAxLnB~LtBxJhBfHnFxPtEzLlGzOt@hBMRDIVj@|BhGf@hBrBhH`ApExBzMz@lJ`@zGXfLEtLU|Gi@dKsBx^[~FKdBRDWhE]dGqArUoArUwGppAmAvV_B`UyAdOoBvNkCvPeB`JwDnOsDpLmLx[u@fBwAnD_@m@oC|GsDbJ_KdVgG`OsUrk@qC`IoEtKoLjYwQlc@iPha@ci@bsAkX~p@eE~KyJnViFhNOS[x@iBbF}D~J{CnIuB`K}ArImNfu@kIta@eB`J{BlHoCjFmCpDqCzBwJfH_QxL}MpJkHtEoBpByApCgBfG_@dCU|F@hCBh@y@RkAtAQs@Mi@S@@NBZv@`H]PQgA_AmF_@y@s@q@q@WkBqAeDqAiAu@yCoDgCmD_CiBgAe@kAUqBOkBDaBXeJ|BkE~AcGfDaL~FoBXs@CaAWeBwAs@iA}AeDiA_CeDyJyN}d@oAeCcB}AkEeCk@k@q@kAqBuEgAkAsCeAkKmDuCgAcB_BsMmP_EcFoCoCyE}DgBa@cA@u@`@e@x@g@pCoArJq@vFaA`GU~D_@~CqAtDeAlB_A~@_Bp@aBJuAMcAe@_Aq@y@cAaAiBy@wBm@_Cc@kCYqCg@uKoBcc@YmLEgDG_FLsG|@u_@n@cKxE{d@RgFB}DIgE[sEyAuLVtDc@eDIs@PWj@[Q{@JOEOO^sFlEyKtH_IpFeL`I}BzACM`CeArBuAlA}@"
          },
          "summary" : "",
          "warnings" : [

@@ -1,8 +1,9 @@
 package screen;
 
 import Helpers.Vector3;
-import modules.travel.TravelHelper;
-import modules.weather.WeatherFileHandler;
+import modules.travel.TravelModule;
+import modules.travel.TravelModuleHelper;
+import modules.travel.TravelPanel;
 import modules.weather.WeatherModule;
 import org.json.simple.parser.ParseException;
 
@@ -19,8 +20,6 @@ public class MainScreen {
 
     public static void main(String[] args) throws IOException, ParseException, java.text.ParseException {
         new MainScreen();
-        Vector3 v3 = TravelHelper.getTraveltimes();
-        System.out.println(v3.getX()+"/"+v3.getY()+"/"+v3.getZ());
     }
 
     public MainScreen() throws IOException, ParseException, java.text.ParseException {
@@ -46,6 +45,8 @@ public class MainScreen {
         for(int i=0; i<9; i++) {
             if(i == 0) {
                 subPanels[i] = new WeatherModule();
+            } else if (i == 2) {
+                subPanels[i] = new TravelModule();
             } else {
                 subPanels[i] = new JPanel();
                 subPanels[i].setBackground(Color.black);

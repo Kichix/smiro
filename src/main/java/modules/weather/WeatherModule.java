@@ -28,6 +28,13 @@ public class WeatherModule extends JPanel {
         weatherModuleHelper = new WeatherModuleHelper();
         weatherModuleHelper.updateValues();
 
+        super.setVisible(true);
+
+        initGUI();
+        initTimer();
+    }
+
+    public void initGUI() throws IOException {
         //Padding
         Border padding = BorderFactory.createEmptyBorder(50,50,50,50);
         super.setBorder(padding);
@@ -35,14 +42,12 @@ public class WeatherModule extends JPanel {
         //Layout and Components
         super.setLayout(new GridLayout(1,5));
         subPanels = new JPanel[5];
-
-        super.setVisible(true);
-
         updatePanels();
+
         for(int i = 0; i<5; i++) {
+            //subPanels[i].setLayout(new GridLayout(5,1));
             subPanels[i].setVisible(true);
         }
-        initTimer();
     }
 
     //Updates the file and the weatherpanels
@@ -64,7 +69,12 @@ public class WeatherModule extends JPanel {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(ii==timerInterval){
-                    ii = timerInterval;
+                    ii = 0;
+                    try {
+                        updatePanels();
+                    } catch (IOException e1) {
+                        e1.printStackTrace();
+                    }
                     timer.restart();
                 }
                 ii++;
