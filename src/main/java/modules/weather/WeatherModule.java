@@ -1,9 +1,9 @@
 package modules.weather;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import org.json.simple.parser.ParseException;
 
 import javax.swing.*;
@@ -15,6 +15,8 @@ import javax.swing.border.Border;
 public class WeatherModule extends JPanel {
 
     WeatherModuleHelper weatherModuleHelper;
+    JPanel[] subPanels;
+    Timer timer;
 
     public WeatherModule() throws IOException, ParseException, java.text.ParseException {
 
@@ -32,16 +34,42 @@ public class WeatherModule extends JPanel {
 
         //Layout and Components
         super.setLayout(new GridLayout(1,5));
-        JPanel[] subPanels = new JPanel[5];
-        for(int i = 0; i<5; i++) {
-            subPanels[i] = new WeatherPanel(weatherModuleHelper.getWeatherdataPos(i), weatherModuleHelper.getHeader(i));
-            System.out.println(i+": "+weatherModuleHelper.getHeader(i));
-            super.add(subPanels[i]);
-        }
+        subPanels = new JPanel[5];
 
         super.setVisible(true);
+
+        updatePanels();
         for(int i = 0; i<5; i++) {
             subPanels[i].setVisible(true);
         }
+        initTimer();
+    }
+
+    //Updates the file and the weatherpanels
+    public void updatePanels() throws IOException {
+        for(int i = 0; i<5; i++) {
+            WeatherFileHandler.updateFile();
+            subPanels[i] = new WeatherPanel(weatherModuleHelper.getWeatherdataPos(i), weatherModuleHelper.getHeader(i));
+            super.add(subPanels[i]);
+        }
+    }
+
+    //Initializes the times which resets
+    public void initTimer() {
+
+        final int timerInterval = 3000;
+
+        timer = new Timer(timerInterval,new ActionListener() {
+            int ii = 0;
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(ii==timerInterval){
+                    ii = timerInterval;
+                    timer.restart();
+                }
+                ii++;
+            }
+        });
+        timer.start();
     }
 }

@@ -39,8 +39,6 @@ public class WeatherFileHandler {
         File file = new File(C_FILEPATH+getFileName(0)+".json");
 
         if(!file.exists() && !file.isDirectory()) {
-            //to-do: metric units, call didn't work
-            System.out.println("Download");
           URL weatherurl = new URL("http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=3656c08ddb46f3ed4b6b25d47bf9cb62");
           FileUtils.copyURLToFile(weatherurl, new File(C_FILEPATH+getFileName(0)+".json"));
         }
